@@ -12,7 +12,7 @@ const Header = () =>{
                         Zeeshan <span className="text-accent-hover">.</span>
                     </h1>
                 </Link>
-                <div className="hidden xl:flex items-center gap-8">
+                <div className="hidden xl:flex items-center gap-9">
                     <Nav />
                     <Link href="/contact">
                         <Button>Hire Me</Button>

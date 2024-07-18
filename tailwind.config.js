@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: "1rem",
       
     },
     screens: {
@@ -22,7 +22,7 @@ module.exports = {
         
     },
     fontFamily:{
-      primary:"var(--font-jetbrainMono)",
+      primary:"var(--font-jetbrainsMono)",
     },
     extend: {
       colors:{
