@@ -11,16 +11,12 @@ const links = [
         path:"/",
     },
     {
-        name:"services",
-        path:"/services",
-    },
-    {
         name:"about",
         path:"/about",
     },
     {
-        name:"contact",
-        path:"/contact",
+        name:"services",
+        path:"/services",
     },
     {
         name:"resume",
@@ -29,7 +25,13 @@ const links = [
     {
         name:"work",
         path:"/work",
+    },
+    {
+        name:"contact",
+        path:"/contact",
     }
+    
+   
 ]
 
 const Nav = () => {
