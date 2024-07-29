@@ -134,6 +134,14 @@ const skills = {
       icon:<FaDatabase />,
       name:"Database"
     },
+    {
+      icon:<SiTailwindcss />,
+      name:"Tailwind CSS"
+    },
+    {
+      icon:<SiNextdotjs />,
+      name:"Next.js"
+    }
   
   ]
 }
@@ -152,7 +160,7 @@ const Resume = () => {
       opacity:1,
       transition:{delay:1,duration:0.4,ease:"easeIn"},
     }}
-    className="min-h-[80vh] flex items-center justify-content py-12 xl:py-0"
+    className="min-h-[80vh] mt-10 flex items-center justify-content py-12 xl:py-0"
    >
     <div className="container mx-auto">
       <Tabs defaultValue="experience" className="flex flex-col xl:flex-row gap-[60px]">

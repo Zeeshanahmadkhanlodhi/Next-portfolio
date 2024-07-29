@@ -20,6 +20,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { transcode } from "buffer";
 import WorkSliderBtns from "../../components/ui/WorkSliderBtns";
+import Stats from "../../components/stats";
 
 const projects = [
   {
@@ -69,7 +70,8 @@ const Work = () => {
       animate={{opacity:1 , transition:{delay:2.4 , duration:0.4 , ease:"easeIn"} }}
       className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
     >
-      <div className="container mx-auto">
+    <Stats />
+      <div className="container mx-auto mt-8">
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col  xl:justify-between order-2 xl:order-none ">
               <div className="flex  flex-col gap-[30px] h-[50%]">

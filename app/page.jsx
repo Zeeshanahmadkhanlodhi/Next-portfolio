@@ -5,7 +5,7 @@ import { Button } from "../components/ui/button";
 import { FiDownloadCloud } from "react-icons/fi";
 import Social from "../components/Social";
 import Photo from "../components/Photo";
-import Stats from "../components/stats";
+import Work from "./projects/page";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-16 xl:pb-24">
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-center xl:text-left">Full Stack Engineer | Data Scientist </span>
-            <h1 className="h1 mb-6">Hello I'm <br /> <span className="text-accent-hover">Zeeshan Ahmad</span></h1>
+            <h1 className="h1 mb-6">{"Hello I'm"} <br /> <span className="text-accent-hover">Zeeshan Ahmad</span></h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsa, in eos nisi vitae fuga assumenda expedita optio, totam laboriosam est consectetur consequatur ab quasi consequuntur quam rerum, enim repellat?
             </p>
@@ -38,7 +38,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Stats />
+      <Work/>
     </section>
   );
 }

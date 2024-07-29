@@ -23,12 +23,24 @@ const links = [
         path:"/resume",
     },
     {
-        name:"work",
-        path:"/work",
+        name:"Projects",
+        path:"/projects",
+    },
+    // {
+    //     name:"contact",
+    //     path:"/contact",
+    // },
+    {
+        name:"blog",
+        path:"/blog",
     },
     {
-        name:"contact",
-        path:"/contact",
+        name:"papers",
+        path:"/papers",
+    },
+    {
+        name:"Products",
+        path:"/products",
     }
     
    
